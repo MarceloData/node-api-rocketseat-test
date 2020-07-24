@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 mongoose.connect(
-    "mongodb+srv://deploynodeapi:deploynodeapi@cluster0.3s4iy.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "mongodb+srv://deploynodeapi:deploynodeapi@cluster0.3s4iy.mongodb.net/nodeapi-rocketseat?retryWrites=true&w=majority",
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
